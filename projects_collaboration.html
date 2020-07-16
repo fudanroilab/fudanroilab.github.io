@@ -1,0 +1,74 @@
+---
+title: Projects - Lab of Robotics Oriented Intelligence 
+layout: default
+---
+<section>
+  <!--Swiper-->
+  <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
+       style="height: 400px;">
+    <div class="jumbotron text-center">
+      <h1 style="margin-top: 70px">Projects
+      </h1>
+      <p class="big"></p>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
+        <div class="swiper-slide-caption"></div>
+      </div>
+      <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
+        <div class="swiper-slide-caption"></div>
+      </div>
+      <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
+        <div class="swiper-slide-caption"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<main class="page-content">
+  <section class="section-border text-center text-lg-left">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Projects</a></li>
+      </ol>
+    </div>
+  </section>
+  
+  <!--Start section-->
+  <section class="text-center text-lg-left margin-1">
+    <div class="container">
+      <h5 class="font-weight-bold text-lg-left">Collaboration</h5>
+      <hr>
+      <div class="row">
+        {% for post in site.posts %}
+        {% if post.type == 'collaboration' %}
+        <div class="col-12 section-border">
+            <article class="thumbnail well slow-hover" style="padding-top: 20px; padding-bottom: 20px">
+                <!--<div class="image-slow-wrapper"><img src="images/Publication01.png" alt=""></div>-->
+                <div class="caption">
+                    <h4>{{ post.title }}</a></h4>
+                    {% if post.author == 'None' %}
+                    {% else %}
+                    <h5>{{ post.author }}</h5>
+                    {% endif %}
+                    <p class="lead margin-2 text-justify">
+                        {{ post.content }}
+                    </p>
+                </div>
+            </article>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+</main>
+<!--
+========================================================
+                                                FOOTER
+========================================================
+-->
+
+
+

@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+<section>
+    <!--Swiper-->
+    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
+        style="height: 250px;">
+        <div class="jumbotron text-center">
+            <h1 style="margin-top: 70px">Meet Our People
+            </h1>
+            <p class="big"></p>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="page-content">
+    <ol class="breadcrumb section-border">
+        <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
+        <li><a href="{{ BASE_PATH }}/people.html">Our Team</a></li>
+        <li class="active">{{ page.name }}</li>
+    </ol>
+
+    <!--Start section-->
+    <section class="text-center text-lg-left well well-sm">
+        <div class="container">
+            <article class="team-member row row-30 flex-md-row-reverse justify-content-center">
+                {% if page.profile != 'None' %}
+                <div class="col-9 col-lg-6"><img class="img-rounded" src="{{ BASE_PATH }}/images/people/{{ page.profile }}" alt=""></div>
+                {% else %}
+                <div class="col-9 col-lg-6"><img class="img-rounded" src="{{ BASE_PATH }}/images/people/{{ page.profileName }}" alt=""></div>
+                {% endif %}
+                <div class="col-10 col-lg-6">
+                    <h1>{{ page.name }}</h1>
+                    <p class="small text-light-clr" style="margin-bottom: 10px">
+                        {% if page.showtitle != 'None' %}
+                        <br>
+                        {{ page.showtitle }}
+                        {% endif %}
+
+                        {% if page.institution != 'None' %}
+                        <br>
+                        {{ page.institution }}
+                        {% endif %}
+
+                        {% if page.email != 'None' %}
+                        <br>
+                        {{ page.email }}
+                        {% endif %}
+
+                    </p>
+                    <div class="tags d-inline-block">
+                            <span class="badge fa-tags"></span>
+                            {% if page.homepage != 'None' %}
+                            <a class="post-tag round-xl small text-primary" href="{{ page.homepage }}">Website</a>
+                            {% endif %}
+                            {% if page.google != 'None' %}
+                            <a class="post-tag round-xl small text-primary" href="{{ page.google }}">Google Scholar</a>
+                            {% endif %}
+                            {% if page.github != 'None' %}
+                            <a class="post-tag round-xl small text-primary" href="{{ page.github }}">Github</a>
+                            {% endif %}
+                            {% if page.linkedin != 'None' %}
+                            <a class="post-tag round-xl small text-primary" href="{{ page.linkedin }}">Linkedin</a>
+                            {% endif %}
+                        </div>
+                    <p>
+                        {{ content }}
+                    </p>
+                    <p>
+                        {% if page.direction != 'None' %}
+                        Research Interests: {{ page.direction }}
+                        {% endif %}
+
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!--End section-->
+</main>

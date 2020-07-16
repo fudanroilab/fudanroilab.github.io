@@ -1,0 +1,164 @@
+---
+title: Lab of Robotics Oriented Intelligence - Fudan University
+labNameBig: Lab of Robotics Oriented Intelligence 
+labNameSmall: Academy for Engineering & Technology, School of Computer Science, Fudan University
+labNameDescript: Let intelligent robots enter our lives
+layout: default
+color: 	Black
+---
+
+<section>
+    <!--Swiper-->
+    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false">
+        <div class="jumbotron text-center">
+            <h1><font color="{{page.color}}">{{ page.labNameBig }}</font></h1>
+            <hr>
+            <h3><font color="{{page.color}}">{{ page.labNameSmall }}</font></h3>
+            <p class="big"><em><font color="{{page.color}}">{{ page.labNameDescript }}</font></em> </p>
+            <!--<div class='button-group-variant'> <a class='button button-default round-xl button-sm' href='https://www.templatemonster.com/website-templates/58434.html'>Buy Now</a> <a class='button button-default round-xl button-sm' href='#'>View Features</a></div>-->
+        </div>
+        <div class="swiper-wrapper"> 
+            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<main class="page-content">
+    <section class="well well-inset-2">
+        <div class="container">
+            <h1 class="text-center font-weight-bold">Recent News</h1>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <!-- Bootstrap collapse-->
+                    <!-- <div class="card-group-custom card-group-corporate" id="accordion1" role="tablist"
+                        aria-multiselectable="false"> -->
+                    <!-- Bootstrap card-->
+                    <article class="card card-custom card-corporate">
+                        <div class="card-header" role="tab">
+                            <div class="card-title">
+                                {% for post in site.posts %}
+                                {% if post.title == 'The laboratory "Chinese medicine assistant robot" won the silver prize at the 46th Geneva International Invention Exhibition!' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [April 2018] The laboratory "Chinese medicine assistant robot" won the silver prize at the 46th Geneva International Invention Exhibition! Check out here for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                            </div>
+                        </div>
+                    </article>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Start section-->
+    <section class="well well-sm well-inset-2 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <h1 class="font-weight-bold text-center">About Us</h1>
+                    <p class="lead big">
+                        In recent years, the laboratory has obtained tens of million yuan of scientific research resources input, including the Ministry of education, the National Natural Science Foundation of China, the major science and technology projects of Shanghai Municipal Science and Technology Commission, the 211 special project of Fudan University, and more than 30 university enterprise cooperation projects. It has produced a large number of original and independent intellectual property rights research results, and has developed "Fudan I robot for autonomous mental development" "Fuwa", "Aijia No.1", "Haibao robot", "Chinese and Western medicine health management robot" and other six generations of intelligent service robots.
+                    </p>
+                </div>
+            </div>
+
+            <div class="well well-sm well-inset-2 row justify-content-center">
+                <div class="col-xl-12">
+                    <h1 class="font-weight-bold text-center">Awards</h1>
+                    <p class="lead big">
+                        We has won the second prize of the 9th Shanghai Science and technology award of traditional Chinese medicine in 2019, the silver award of international invention in 2018, the special award of Romanian Academy of technology and Sciences, the grand prize of 2017 China International Industrial Exposition, the second prize of technological invention of the Ministry of education, the second prize of Wu Wenjun's artificial intelligence science and technology progress award, the third prize of Shanghai Science and technology progress award, and the 2015 Suzhou science and technology leading talent.
+                    </p>
+                </div>
+            </div>
+
+    <!--Start section-->
+    <section class="well well-sm well-inset-2 text-center text-lg-left">
+        <div class="container">
+            <h1 class="font-weight-bold text-center">Latest Publications</h1>
+            <div class="row row-30">
+                {% assign count=0%}
+                {% for post in site.posts %}
+                {% if post.type == 'paper' and count<3%}
+                {% assign count = count | plus:1 %}
+                <div class="col-lg-4">
+                    <article class="thumbnail thumbnail-4"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" width=400px height=200px  alt="">
+                        <div class="caption">
+                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                            <p class="text-dark-variant-2">{{ post.author }}</p>
+                            <div class="blog-info">
+                                <div class="pull-md-left">
+                                    <time class="meta fa-calendar" datetime="2019">{{ post.year }}
+                                        {{ post.month }}</time>
+                                </div><a class="button-link" href="{{ post.url }}">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+
+    <!--Start section-->
+    <section class="well well-sm well-inset-2 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <h1 class="font-weight-bold text-center">Collaboration</h1>
+                </div>
+            </div>
+            <div class="row margin-1">
+                <!--Owl Carousel-->
+                <div class="owl-carousel" data-autoplay="true" data-items="1" data-md-items="2" data-sm-items="1"
+                    data-lg-items="3" data-nav="true" data-margin="30" data-loop="true">
+                    <blockquote class="quote-2"><img class="img-rounded" href="http://faet.fudan.edu.cn/main.htm" src="images/AETlogo.jpg" alt="">
+                        <h6>
+                            <cite>Academy for Engineering & Technology</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>The Academy for Engineering & Technology (FAET) was established in January 2017. It aims to systematically and integrate interdisciplinary and multidisciplinary cooperation based on the advantages of Fudan University's multidisciplinary basic research, aiming at the research and development of forward-looking, critical and creative engineering and application technology oriented to the major national needs.</q>
+                        </p>
+                    </blockquote>
+                    <blockquote class="quote-2"><img class="img-rounded"  src="images/SCSlogo.jpg" alt="" href="http://www.cs.fudan.edu.cn/">
+                        <h6>
+                            <cite>School of Computer Science</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>In 1975, Fudan University established the Department of computer science. In 2008, the school integrated the strength of computer science and technology, and established the College of computer science and Technology. The national demonstrative software college established in 2002 and the national security college established in 2011 all rely on the college to carry out school running work.</q>
+                        </p>
+                    </blockquote>
+                    <blockquote class="quote-2" ><img class="img-rounded" href="https://www.zte.com.cn/china/" src="images/ZTElogo.jpg" alt="">
+                        <h6>
+                            <cite >ZTE Corporation</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>ZTE is the world's leading provider of integrated communication and information solutions. The company provides innovative technology and product solutions for telecom operators and government and enterprise customers in more than 160 countries and regions, so that users all over the world can enjoy voice, data, multimedia, wireless broadband and other all-round communication.</q>
+                        </p>
+                    </blockquote>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+</main>
+
+
+
