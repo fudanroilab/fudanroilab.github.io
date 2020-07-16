@@ -11,7 +11,7 @@ showtitle: Master Students in 2020
 title: Yijun Long # Website Title
 profileName:  longyijun.jpg #  Fix aspect ratio = 1:1
 profile: longyijun.jpg  # About aspect ratio = 4:3
-direction : Semantic segmentation, Computer Vision
+direction : Deep Learning, Computer Vision
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
