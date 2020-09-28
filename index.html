@@ -47,6 +47,13 @@ color: 	Black
                         <div class="card-header" role="tab">
                             <div class="card-title">
                                 {% for post in site.posts %}
+                                {% if post.title == 'Defect Detection Artificial Intelligence National Major Project Weifang Investigation' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [September 2020] The laboratory members had an investigation in Weifang for Defect Detection Artificial Intelligence National Major Project!<font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
                                 {% if post.title == 'The laboratory "Chinese medicine assistant robot" won the silver prize at the 46th Geneva International Invention Exhibition!' %}
                                 <a role="button"  class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
