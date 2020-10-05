@@ -15,4 +15,4 @@ code: None  # If has data, post code link here, otherwise None
 paperLink: None  # post paper pdf link here
 ---
 
-家庭服务机器人具有自动感应、远程监控、自主行走、及时报信、远程遥控、视觉互动、语音交流、自主充电、声源定位等功能，利用手机，通过它的眼睛，通过它的表情，通过它的声音，通过它的大脑可以随时随地知晓家庭的一切情况，与家人进行友好的互动等。
+Home service robot has the functions of automatic sensing, remote monitoring, autonomous walking, timely reporting, remote control, visual interaction, voice communication, self-charging, sound source positioning, etc. Using mobile phones, through its eyes, through its expression, through its voice, through its brain can be aware of all the family's situation at any time and anywhere, and friendly interaction with family members.
