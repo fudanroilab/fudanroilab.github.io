@@ -4,7 +4,7 @@ name: Dawei Yang
 type: people
 people_type : EngD Students
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: EngD Student in 201X
+showtitle: EngD Student in 2018
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
