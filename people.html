@@ -232,8 +232,8 @@ layout: default
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
                             <p class="text-light-clr" style="margin-top: 0px">
-                                {% if post.direction != 'None' %}
-                                Direction: {{ post.direction }}
+                                {% if post.Employment != 'None' %}
+                                {{ post.Employment }}
                                 {% endif %}
                                 {% if post.email != 'None' %}
                                 <br>

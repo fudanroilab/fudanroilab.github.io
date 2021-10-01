@@ -4,7 +4,7 @@ name: Jianqiang Peng # Write your name
 type: people #  Do not change this
 people_type : Master Students
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: Master Student in 201X
+showtitle: Master Student in 2019
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 title: Jianqiang Peng # Website Title
