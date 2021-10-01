@@ -15,7 +15,7 @@ direction : Computer Vision
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: None
+email: sqyan19@fudan.edu.cn
 google : None
 github : None
 linkedin: None
