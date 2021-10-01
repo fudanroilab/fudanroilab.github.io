@@ -6,7 +6,7 @@ pro_type: Segmentation #  Research Interests or Projects
 layout: post  #  Do not change this
 date:   2019-11-21 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Xinlei Li, Dawei Yang, Yan Wang, Shuai Yang, Lizhe Qi, Fufeng Li, Zhongxue Gan, Wenqiang Zhang  # authors information
-venue:  IEEE International Conference on Bioinformatics and Biomedicine (IEEE BIBM 2019)  # Where it be, ICCV and CVPR remove IEEE Conference on,
+venue:  IEEE International Conference on Bioinformatics and Biomedicine (IEEE BIBM 2019) (CCF B) # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2019  # paper year, number
 month:  November  # paper month, full name
 projectPage: None  # If has project page, link here, otherwise None

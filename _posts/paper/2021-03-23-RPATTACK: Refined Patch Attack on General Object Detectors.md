@@ -6,7 +6,7 @@ pro_type: Visual Place Recognition
 layout: post  #  Do not change this
 date:   2020-03-23 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Hao Huang, Yongtao Wang, Zhaoyu Chen, Zhi Tang, Wenqiang Zhang, Kai-Kuang Ma  # authors information
-venue:  IEEE International Conference on Multimedia and Expo (ICME) 2021  # Where it be, ICCV and CVPR remove IEEE Conference on,
+venue:  IEEE International Conference on Multimedia and Expo (ICME) 2021 (CCF B) # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2021  # paper year, number
 month:  March  # paper month, full name
 projectPage: None  # If has project page, link here, otherwise None

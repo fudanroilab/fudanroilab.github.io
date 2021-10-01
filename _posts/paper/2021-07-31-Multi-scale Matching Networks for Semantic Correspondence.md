@@ -6,7 +6,7 @@ pro_type: Visual Place Recognition
 layout: post  #  Do not change this
 date:   2020-07-31 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Dongyang Zhao, Ziyang Song, Zhenghao Ji, Gangming Zhao, Weifeng Ge, Yizhou Yuu  # authors information
-venue:  IEEE International Conference on Computer Vision 2021  # Where it be, ICCV and CVPR remove IEEE Conference on,
+venue:  IEEE International Conference on Computer Vision 2021 (CCF A) # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2021  # paper year, number
 month:  July  # paper month, full name
 projectPage: None  # If has project page, link here, otherwise None
