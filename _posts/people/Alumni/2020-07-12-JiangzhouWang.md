@@ -2,13 +2,14 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Jiangzhou Wang # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
 showtitle: Master Student in 2018
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 title: Jiangzhou Wang # Website Title
+Employment: Huawei
 profileName: 2020-12-12-jiangzhouwang.png  # Fixed 186 * 186
 profile: 2020-12-12-jiangzhouwangBIG.png  # About 570 * 725
 direction : Machine Learning, Computer Vision, Deep Learning
