@@ -43,6 +43,10 @@ layout: default
                         {% else %}
                         <h4 style="padding-top: 20px">{{ page.author }}</h4>
                         {% endif %}
+                        {% if page.venue == 'None'%}
+                        {% else %}
+                        <h4 style="padding-top: 3px">{{ page.venue }}</h4>
+                        {% endif %}
                         <div class="blog-info">
                             <div class="pull-md-left">
                                 <time class="meta fa-calendar" datetime="2019">{{ page.year }} {{ page.month }}</time>
