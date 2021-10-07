@@ -8,7 +8,7 @@ showtitle: Master Student in 2021 # people_type in 201X
 title: Zechu Zhou # Website Title
 profileName: zechuzhou.jpg  # Fixed 186 * 186, image filename
 profile: zechuzhouBig.jpg  # About 570 * 725, image filename
-direction : Adversarial examples, Semantic Segmentation
+direction : Computer Vision,  Video Object Tracking
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
