@@ -1,21 +1,22 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Yiming Li # Write your name
+name: Jinshen Li # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
 showtitle: Master Student in 2018
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
-title: Yiming Li  # Website Title
-profileName: liyiming.jpg  # Fixed 186 * 186
-profile: liyimingBig.jpg  # About 570 * 725
+title: Jinshen Li  # Website Title
+Employment: Government employee
+profileName: lijinshen.jpg  # Fixed 186 * 186
+profile: lijinshenBig.jpg  # About 570 * 725
 direction : Computer Vision, Deep Learning
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: 2512704264@qq.com
+email: 1021866202@qq.com
 google : None
 github : None
 linkedin: None
@@ -29,4 +30,4 @@ institutionShort: School of Computer Science
 # Self-introduction is described in the third person, including information such as educational experience
 ---
 
-Yiming Li is a master student at SCS, Fudan University, and supervised by Prof. Wenqiang Zhang. She received her B.E. degree from Qingdao University. Her research interests include computer vision and deep learning.
+Jinshen Li is a master student at SCS, Fudan University, and supervised by Prof. Wenqiang Zhang. He received his B.E. degree from Donghua University. His research interests include computer vision and deep learning.

@@ -9,8 +9,8 @@ showtitle: Master Student in 2019
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 title: Yankai Wang # Website Title
-profileName: robot.jpg  # Fixed 186 * 186
-profile: robot.jpg  # About 570 * 725
+profileName: wangyankai.jpg  # Fixed 186 * 186
+profile: wangyankaiBig.jpg  # About 570 * 725
 direction : Meachine Learning, Computer Vision
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
