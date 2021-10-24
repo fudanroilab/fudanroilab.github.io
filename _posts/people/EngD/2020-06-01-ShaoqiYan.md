@@ -2,9 +2,9 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Shaoqi Yan # Write your name
 type: people #  Do not change this
-people_type : PhD Students
+people_type : EngD Students
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: PhD Student in 2019
+showtitle: EngD Student in 2019
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

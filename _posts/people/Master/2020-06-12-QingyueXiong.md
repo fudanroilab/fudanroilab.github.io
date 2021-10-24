@@ -15,7 +15,7 @@ direction : Medical Image Analysis Semantic segmentation
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: eeechobear@163.com 19210860065@fudan.edu.cn
+email: 19210860065@fudan.edu.cn
 google : None
 github : None
 linkedin: None
