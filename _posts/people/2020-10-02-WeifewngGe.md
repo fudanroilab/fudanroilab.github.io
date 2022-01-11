@@ -14,7 +14,7 @@ direction: Low Level Imaging, Weakly Supervised Learning, Metric Learning, Trans
 layout: peoplepost  #  Do not change this
 homepage: https://cs.fudan.edu.cn/52/ee/c25929a348910/page.htm
 email: wfge@fudan.edu.cn
-google : None
+google : https://scholar.google.com/citations?hl=en&user=J00lXcUAAAAJ
 github : None
 linkedin: None
 institution: School of Computer Science, Fudan University

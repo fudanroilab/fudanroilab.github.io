@@ -14,7 +14,7 @@ direction : Robots, Artificial intelligence, Computer vision, Intelligent equipm
 layout: peoplepost  #  Do not change this
 homepage: http://faet.fudan.edu.cn/17/bb/c13532a137147/page.htm
 email: wqzhang@fudan.edu.cn
-google : None
+google : https://scholar.google.com/citations?hl=en&authuser=2&user=vL-VEJYAAAAJ
 github : None
 linkedin: None
 institution: Academy for Engineering & Technology, School of Computer Science, Fudan University
