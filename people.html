@@ -52,18 +52,18 @@ layout: default
             <div class="row row-50">
                 {% for post in site.posts %}
                 {% if post.people_type == 'Organizer' %}
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-3">
                     <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                         <div class="caption margin-1">
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
                             <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
-                            <p class="text-light-clr" style="margin-top: 0px" align="text-center">
+                            <!-- <p class="text-light-clr" style="margin-top: 0px" align="text-center">
                                 Direction: {{ post.direction }}
                                 <br>
                                 Email: {{ post.email }}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
+                            </p> -->
+                            <!-- <ul class="list-inline list-inline-3" style="margin-top: 10px">
                                 {% if post.homepage != 'None' %}
                                 <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
                                 {% endif %}
@@ -76,7 +76,7 @@ layout: default
                                 {% if post.google != 'None' %}
                                 <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
                                 {% endif %}
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ layout: default
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
                             <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
-                            <p class="text-light-clr" style="margin-top: 0px">
+                            <!-- <p class="text-light-clr" style="margin-top: 0px">
                                 Direction: {{ post.direction }}
                                 <br>
                                 Email: {{ post.email }}
@@ -120,7 +120,7 @@ layout: default
                                 {% if post.google != 'None' %}
                                 <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
                                 {% endif %}
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ layout: default
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
                             <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
-                            <p class="text-light-clr" style="margin-top: 0px">
+                            <!-- <p class="text-light-clr" style="margin-top: 0px">
                                 Direction: {{ post.direction }}
                                 <br>
                                 Email: {{ post.email }}
@@ -163,7 +163,7 @@ layout: default
                                 {% if post.google != 'None' %}
                                 <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
                                 {% endif %}
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -182,13 +182,13 @@ layout: default
             <div class="row row-50">
                 {% for post in site.posts %}
                 {% if post.people_type == 'Master Students' %}
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-2">
                     <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                     <div class="caption margin-1">
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
                             <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
-                            <p class="text-light-clr" style="margin-top: 0px">
+                            <!-- <p class="text-light-clr" style="margin-top: 0px">
                                 Direction: {{ post.direction }}
                                 <br>
                                 Email: {{ post.email }}
@@ -206,7 +206,7 @@ layout: default
                                 {% if post.google != 'None' %}
                                 <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
                                 {% endif %}
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
