@@ -4,7 +4,7 @@ name: Tianan Shi # Write your name
 type: people #  Do not change this
 people_type : Master Students
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
-showtitle: Master Students in 2021 # people_type in 201X
+showtitle: 2021 Master # people_type in 201X
 title: Tianan Shi # Website Title
 profileName: tiananshi.jpg  # Fixed 186 * 186, image filename
 profile: tiananshiBig.jpg  # About 570 * 725, image filename

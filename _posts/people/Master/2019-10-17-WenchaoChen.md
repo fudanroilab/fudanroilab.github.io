@@ -4,7 +4,7 @@ name: Wenchao Chen # Write your name
 type: people #  Do not change this
 people_type : Master Students
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
-showtitle: Master Student in 2021 # people_type in 201X
+showtitle: 2021 Master # people_type in 201X
 title: Wenchao Chen # Website Title
 profileName: wenchaochen.jpg  # Fixed 186 * 186, image filename
 profile: wenchaochenBig.jpg  # About 570 * 725, image filename

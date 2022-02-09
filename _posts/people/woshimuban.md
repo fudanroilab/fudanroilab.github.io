@@ -4,7 +4,7 @@ name: Zhaoyu Chen # Write your name
 type: people #  Do not change this
 people_type : PhD Students
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
-showtitle: PhD Student in 2020
+showtitle: 2020 PhD
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor] in 20XX (Admission Date)

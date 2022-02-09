@@ -2,7 +2,7 @@
 name: Xuening Wu
 type: people #  Do not change this
 people_type : EngD Students
-showtitle: EngD Student in 2019
+showtitle: 2019 EngD
 title: Xuening Wu # Website Title
 profileName: robot.jpg  # Fixed 186 * 186
 profile: robot.jpg  # About 570 * 725

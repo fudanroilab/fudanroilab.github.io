@@ -4,7 +4,7 @@ name: Jinglun Li # Write your name
 type: people #  Do not change this
 people_type : EngD Students
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
-showtitle: EngD Student in 2021 # people_type in 201X
+showtitle: 2021 EngD # people_type in 201X
 title: Jinglun Li # Website Title
 profileName: jinglunli.jpg  # Fixed 186 * 186, image filename
 profile: jinglunliBig.jpg  # About 570 * 725, image filename

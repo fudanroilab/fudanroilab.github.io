@@ -4,7 +4,7 @@ name: Xinyu Zhou # Write your name
 type: people #  Do not change this
 people_type : EngD Students
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
-showtitle: EngD Student in 2020
+showtitle: 2020 EngD
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor] in 20XX (Admission Date)

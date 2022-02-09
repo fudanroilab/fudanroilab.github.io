@@ -4,7 +4,7 @@ name: Yiting Cheng # Write your name
 type: people #  Do not change this
 people_type : PhD Students
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
-showtitle: PhD Student in 2021 # people_type in 201X
+showtitle: 2021 PhD # people_type in 201X
 title: Yiting Cheng # Website Title
 profileName: yitingcheng.jpg  # Fixed 186 * 186, image filename
 profile: yitingchengBig.jpg  # About 570 * 725, image filename

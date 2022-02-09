@@ -4,7 +4,7 @@ name: Yucheng Zhou
 type: people
 people_type : Alumni
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: Master Student in 2018
+showtitle: 2018 Master 
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

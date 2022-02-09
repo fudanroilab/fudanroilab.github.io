@@ -4,7 +4,7 @@ name: Jinxiao Hao # Write your name
 type: people #  Do not change this
 people_type : Master Students
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
-showtitle: Master Students in 2021 # people_type in 201X
+showtitle: 2021 Master # people_type in 201X
 title: Jinxiao Hao # Website Title
 profileName: jinxiaohao.jpg.jpg  # Fixed 300 * 400, image filename
 profile: jinxiaohaoBig.jpg.jpg  # About 1279 * 1706, image filename

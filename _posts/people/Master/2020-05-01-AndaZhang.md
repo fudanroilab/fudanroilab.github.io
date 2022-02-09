@@ -4,7 +4,7 @@ name: Anda Zhang # Write your name
 type: people #  Do not change this
 people_type : Master Students
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: Master Student in 2020
+showtitle: 2020 Master
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

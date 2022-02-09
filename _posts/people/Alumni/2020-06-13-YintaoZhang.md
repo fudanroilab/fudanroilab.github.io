@@ -2,12 +2,13 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Yingtao Zhang # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
-showtitle: Master Student in 2019
+showtitle: 2019 Master
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
+Employment: Tencent Timi
 title: Tianfang Meng  # Website Title
 profileName: zhangyingtao.jpg  # Fixed 186 * 186
 profile: zhangyingtaoBig.jpg  # About 570 * 725
