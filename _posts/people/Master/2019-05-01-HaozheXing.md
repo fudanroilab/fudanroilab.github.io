@@ -12,7 +12,7 @@ direction : computer vision, Semantic Segmentation
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: 170120010129@m.fudan.edu.cn
+email: hzxing21@m.fudan.edu.cn
 google : None
 github : None
 linkedin: None
@@ -26,7 +26,7 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience
 ---
 
-Haozhe Xing is currently a Master  student at Academy for Engineerng & Technology, Fudan University. He is supervised by Prof. Wenqiang Zhang.  His research interests are in  computer vision.
+Haozhe Xing is currently a Master  student at Academy for Engineerng & Technology, Fudan University. He is supervised by Prof. Wenqiang Zhang.  His research interests are in computer vision.
 
 
 
