@@ -2,13 +2,14 @@
 # This file must follow the rule that filename is year-month-day-name.md.
 name: Dawei Yang
 type: people
-people_type : EngD Students
+people_type : Alumni
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
 showtitle: 2018 EngD
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 title: Dawei Yang # Website Title
+Employment: Houmo.ai
 profileName: robot.jpg  # Fixed 186 * 186
 profile: robot.jpg  # About 570 * 725
 direction : Semantic Segmentation, Computer Vision
