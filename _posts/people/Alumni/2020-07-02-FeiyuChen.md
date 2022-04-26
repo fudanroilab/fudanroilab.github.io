@@ -9,7 +9,7 @@ showtitle: 2018 Master
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 title: Feiyu Chen # Website Title
-Employment: PhD
+Employment: PhD of City University of Hong Kong
 profileName: feiyuchen.jpeg  # Fixed 186 * 186
 profile: feiyuchenBig.jpeg  # About 570 * 725
 direction : Computer Vision, Deep Learning
