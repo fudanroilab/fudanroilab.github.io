@@ -13,7 +13,7 @@ layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
 email: zhaoyuchen20@fudan.edu.cn
-google : None
+google : https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F44T6vx5aYSCfz-WXQg55znKy7Qq-D-Gt58jUQTQFCUeERgrb3yb6pPVpBtadHNENmpiu1g57CnXCal-M6CF81B50THPQjkgJOYdF6lnPNaFPdyCng&user=1FbMihMAAAAJ
 github : None
 linkedin: None
 # 
