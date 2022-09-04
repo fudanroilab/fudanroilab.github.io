@@ -20,7 +20,7 @@ linkedin: None
 institution: School of Computer Science, Fudan University
 # Academy for Engineering & Technology, Fudan University
 # School of Computer Science, Fudan University
-institutionShort: Technology or School of Computer Science
+institutionShort: School of Computer Science
 # Academy for Engineering & Technology or School of Computer Science
 
 # Self-introduction is described in the third person, including information such as educational experience
