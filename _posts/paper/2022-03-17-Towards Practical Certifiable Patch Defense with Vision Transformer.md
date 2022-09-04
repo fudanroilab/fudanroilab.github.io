@@ -1,0 +1,19 @@
+---
+title:  'Towards Practical Certifiable Patch Defense with Vision Transformer'  #  Paper title, covered by ''
+teser: 2022chencvpr.png
+type:  paper
+pro_type: Visual Place Recognition
+layout: post  #  Do not change this
+date:   2022-03-27 11:59:59 +0800  # paper pub data, only change year and month according to this format
+author: Zhaoyu Chen, Bo Li, Jianghe Xu, Shuang Wu, Shouhong Ding, Wenqiang Zhang  # authors information
+venue:  IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2022) (CCF A) # Where it be, ICCV and CVPR remove IEEE Conference on,
+year:   2022  # paper year, number
+month:  March # paper month, full name
+projectPage: None  # If has project page, link here, otherwise None
+supplemental : None
+data: None  # If has data, post data link here, otherwise None
+code: None  # If has data, post code link here, otherwise None
+paperLink: https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Towards_Practical_Certifiable_Patch_Defense_With_Vision_Transformer_CVPR_2022_paper.pdf # post paper pdf link here
+---
+
+Patch attacks, one of the most threatening forms of physical attack in adversarial examples, can lead networks to induce misclassification by modifying pixels arbitrarily in a continuous region. Certifiable patch defense can guarantee robustness that the classifier is not affected by patch attacks. Existing certifiable patch defenses sacrifice the clean accuracy of classifiers and only obtain a low certified accuracy on toy datasets. Furthermore, the clean and certified accuracy of these methods is still significantly lower than the accuracy of normal classification networks, which limits their application in practice. To move towards a practical certifiable patch defense, we introduce Vision Transformer (ViT) into the framework of Derandomized Smoothing (DS). Specifically, we propose a progressive smoothed image modeling task to train Vision Transformer, which can capture the more discriminable local context of an image while preserving the global semantic information. For efficient inference and deployment in the real world, we innovatively reconstruct the global self-attention structure of the original ViT into isolated band unit self-attention. On ImageNet, under 2% area patch attacks our method achieves 41.70% certified accuracy, a nearly 1-fold increase over the previous best method (26.00%). Simultaneously, our method achieves 78.58% clean accuracy, which is quite close to the normal ResNet-101 accuracy. Extensive experiments show that our method obtains state-of-the-art clean and certified accuracy with inferring efficiently on CIFAR-10 and ImageNet.
