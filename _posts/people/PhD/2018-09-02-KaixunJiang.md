@@ -7,8 +7,8 @@ people_type : PhD Students
 showtitle: 2022 PhD
 # 20XX [PhD, Master, EngD]
 title: Kaixun Jiang # Website Title
-profileName: kaixunjiang.jpg  #  Fix aspect ratio = 1:1
-profile: kaixunjiangBig.jpg  # About aspect ratio = 4:3
+profileName: KaixunJiang.jpg  #  Fix aspect ratio = 1:1
+profile: KaixunJiangBig.jpg  # About aspect ratio = 4:3
 direction : Adversarial examples
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
