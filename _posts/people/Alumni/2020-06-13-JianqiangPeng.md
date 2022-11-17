@@ -2,12 +2,13 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Jianqiang Peng # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
 showtitle: 2019 Master
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 title: Jianqiang Peng # Website Title
+Employment: China Mobile
 profileName: jianqiangpeng.jpg  # Fixed 186 * 186
 profile: jianqiangpengBig.jpg  # About 390 * 567
 direction : Semantic Segmentation, Computer Vision
