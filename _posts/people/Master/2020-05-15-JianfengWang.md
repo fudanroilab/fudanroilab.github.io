@@ -2,9 +2,10 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Jianfeng Wang # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2020 Master
+Employment: Go Abroad
 # 20XX [PhD, Master, EngD]
 title: Jianfeng Wang # Website Title
 profileName: jianfengwang.jpg  #  Fix aspect ratio = 1:1

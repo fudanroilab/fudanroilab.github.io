@@ -1,21 +1,22 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Ziyan Li # Write your name
+name: Kailei Zhang # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2020 Master
+Employment: China Mobile
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor] in 20XX (Admission Date)
-title: Ziyan Li # Website Title
-profileName: liziyan.jpg  #  Fix aspect ratio = 1:1
-profile: liziyanBig.jpg  # About aspect ratio = 4:3
-direction : Semantic Segmentation, Computer Vision
+title: kailei zhang # Website Title
+profileName: zhangkailei.jpg  #  Fix aspect ratio = 1:1
+profile: zhangkaileiBig.jpg  # About aspect ratio = 4:3
+direction : Deep Learning,Computer Vision, DM
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: codingleee@163.com
+email: zkl009@qq.com
 google : None
 github : None
 linkedin: None
@@ -29,7 +30,8 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience(B/M/P), graduation career development 
 ---
 
-Ziyan Li is currently a prospective Master student in AET, Fudan. He is supervised by Prof. Wenqiang Zhang. He is expected to obtain his MA.Eng. degree from Fudan University, China by 2023. 
+kailei Zhang is a Master Student of Electronic Information in AET, Fudan University, and is supervised by Prof. Wenqiang Zhang.He received his B.E. degree from SEU.
+
 
 
 

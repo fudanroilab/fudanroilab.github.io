@@ -2,9 +2,10 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Weichen Liu # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2020 Master
+Employment: China Telecom
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor] in 20XX (Admission Date)

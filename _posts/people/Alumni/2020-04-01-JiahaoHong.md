@@ -2,9 +2,10 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Jiahao Hong # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2020 Master # people_type in 201X
+Employment: ByteDance
 title: Jiahao Hong # Website Title
 profileName: JiahaoHong.jpg  # Fixed 186 * 186, image filename
 profile: JiahaoHongBig.jpg  # About 570 * 725, image filename
