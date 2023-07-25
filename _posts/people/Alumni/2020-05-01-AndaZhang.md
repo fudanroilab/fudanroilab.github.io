@@ -1,32 +1,32 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Yangji He # Write your name
+name: Anda Zhang # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
 showtitle: 2020 Master
+Employment: China Telecom
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
-title: Yangji He  # Website Title
-profileName: heyangji.jpeg  # Fixed 186 * 186
-profile: heyangjiBig.png  # About 570 * 725
-direction : Computer Vision, Deep Learning
+title: Anda Zhang # Website Title
+profileName: zhanganda.jpg  # Fixed 186 * 186
+profile: zhangandaBig.jpg  # About 570 * 725
+direction : Semantic Segmentation, Computer Vision
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: ligouhei@163.com
+email: zhanganda83@qq.com
 google : None
 github : None
 linkedin: None
 # 
-institution: School of Computer Science, Fudan University
+institution: Academy for Engineering & Technology, Fudan University
 # Academy for Engineering & Technology, Fudan University
 # School of Computer Science, Fudan University
-institutionShort: School of Computer Science
+institutionShort: Academy for Engineering & Technology
 # Academy for Engineering & Technology = AET, School of Computer Science = SCS
 
 # Self-introduction is described in the third person, including information such as educational experience
 ---
-
-Yangji He is a master student at SCS, Fudan University, and supervised by Prof. Wenqiang Zhang. His research interests include computer vision and deep learning.
+Anda Zhang is a Master Student of Electronic Information in AET, Fudan University, and is supervised by Prof. Wenqiang Zhang.
