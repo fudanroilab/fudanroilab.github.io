@@ -32,90 +32,245 @@ layout: default
         <li class="active"><a href="#">Publications</a></li>
     </ol>
 
-
-
-    <!--Start section-->
-    <section class="text-center text-lg-left inset-1">
+    <section class="well text-center text-lg-left margin-1">
         <div class="container">
-            <div class="row justify-content-between">
-
-                <div class="col-lg-8">
-                    <h5 class="font-weight-bold text-lg-left">Publications in Lab</h5>
-                    <hr>
-                    <div class="row">
-
-                        <!-- <h3>2018</h3> -->
-                        {% for post in site.posts %}
-                        {% if post.type == 'paper' %}
-                        <div class="col-12 section-border">
-                            <article class="thumbnail well slow-hover" style="padding-top: 20px; padding-bottom: 20px">
-                                <!--<div class="image-slow-wrapper"><img src="images/Publication01.png" alt=""></div>-->
-                                <div class="caption">
-                                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                                    <h5>{{ post.author }}</h5>
-                                    <h5>{{ post.venue }}</h5>
-                                    <div class="blog-info">
-                                        <div class="pull-md-left">
-                                            <time class="meta fa-calendar" datetime="2018">{{ post.year }}
-                                                {{ post.month }}</time>
-                                            <div class="tags d-inline-block">
-                                                {% if post.paperLink == 'None' %}
-                                                {% else %}
-                                                <a class="post-tag round-xl small text-primary"
-                                                   href="{{ post.paperLink }}">Paper</a>
-                                                {% endif %}
-                                                {% if post.projectPage == 'None' %}
-                                                {% else %}
-                                                <a class="post-tag round-xl small text-primary"
-                                                   href="{{ post.projectPage }}">Project Page</a>
-                                                {% endif %}
-                                                {% if post.code == 'None' %}
-                                                {% else %}
-                                                <a class="post-tag round-xl small text-primary"
-                                                   href="{{ post.code }}">Code</a>
-                                                {% endif %}
-                                                {% if post.data == 'None' %}
-                                                {% else %}
-                                                <a class="post-tag round-xl small text-primary"
-                                                   href="{{ post.data }}">Data</a>
-                                                {% endif %}
-                                                {% if post.supplemental == 'None' %}
-                                                {% else %}
-                                                <a class="post-tag round-xl small text-primary"
-                                                   href="{{ post.supplemental }}">Supplementary</a>
-                                                {% endif %}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
-                </div>
-                
-                <div class="col-lg-3 col-lg-offset-1 inset-md sidebar inset-1">
-                    <h5>Latest Papers in Lab</h5>
-                    <ul class="list-unstyled-2">
-                        {% assign count=0%}
-                        {% for post in site.posts %}
-                        {% if post.type == 'paper' and count<5%}
-                        {% assign count = count | plus:1 %}
-                        <li>
-                            <div class="img-box">
-                                <a href="{{ post.url }}"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" style="width: 100%" alt=""></a>
-                            </div>
-                            <a class="text-primary" href="{{ post.url }}">{{ post.title }}</a>
-                        </li>
+            <h3 class="font-weight-bold text-lg-left">2024</h3>
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <li class="lead text-justify">
+                        Yan Wang, Shaoqi Yan, Wei Song, Antonio Liotta, Jing Liu, Dingkang Yang, Shuyong Gao, Wenqiang Zhang
                         <br>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
+                        &emsp;&ensp;<strong>MGR3Net: Multigranularity Region Relation Representation Network for Facial Expression Recognition in Affective Robots</strong>, IEEE Transactions on Industrial Informatics (TII), 2024, SCI Q1.  <a href="https://ieeexplore.ieee.org/abstract/document/10419057/" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Wei Tao, Yucheng Zhou, Yanlin Wang, Hongyu Zhang, Haofen Wang, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>KADEL: Knowledge-Aware Denoising Learning for Commit Message Generation</strong>, ACM Transactions on Software Engineering and Methodology, 2024, SCI Q2.  <a href="https://dl.acm.org/doi/pdf/10.1145/3643675" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Yuzhou Zhao, Xinyu Zhou, Tongxin Pan, Shuyong Gao, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Correspondence-based Generative Bayesian Deep Learning for semi-supervised volumetric medical image segmentation</strong>, Computerized Medical Imaging and Graphics, 2024, SCI Q2.  <a href="https://www.sciencedirect.com/science/article/pii/S0895611124000296" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Shaoqi Yan, Yan Wang, Xinji Mai, Qing Zhao, Wei Song, Jun Huang, Zeng Tao, Haoran Wang, Shuyong Gao, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Empower smart cities with sampling-wise dynamic facial expression recognition via frame-sequence contrastive learning</strong>, Computer Communications, 2024, SCI Q3.  <a href="https://www.sciencedirect.com/science/article/pii/S0140366423004711" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Qing Zhao, Yan Wang, Yuxuan Lin, Shaoqi Yan, Wei Song, Boyang Wang, Jun Huang, Yang Chang, Lizhe Qi, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Mixed noise-guided mutual constraint framework for unsupervised anomaly detection in smart industries</strong>, 
+                        Computer Communications, 2024, SCI Q3.  <a href="https://www.sciencedirect.com/science/article/pii/S0140366423004723" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
                 </div>
             </div>
         </div>
-        <!--End section-->
     </section>
+
+
+    <section class="well text-center text-lg-left margin-1">
+        <div class="container">
+            <h3 class="font-weight-bold text-lg-left">2023</h3>
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <li class="lead text-justify">
+                        Yiting Cheng, Fangyun Wei, Jianmin Bao, Dong Chen, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>ADPL: Adaptive Dual Path Learning for Domain Adaptation of Semantic Segmentation</strong>, 
+                        IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023, CCF A.  <a href="https://ieeexplore.ieee.org/abstract/document/10050808/" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Xinyu Zhou, Pinxue Guo, Lingyi Hong, Jinglun Li, Wei Zhang, Weifeng Ge, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Reading Relevant Feature from Global Representation Memory for Visual Object Tracking</strong>, 
+                        Advances in Neural Information Processing Systems (NeurIPS), 2023, CCF A.  <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Zhaoyu Chen, Bo Li, Shuang Wu, Kaixun Jiang, Shouhong Ding, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Content-based Unrestricted Adversarial Attack</strong>, 
+                        Advances in Neural Information Processing Systems (NeurIPS), 2023, CCF A.  <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/a24cd16bc361afa78e57d31d34f3d936-Paper-Conference.pdf" style="color:#123693">[pdf]</a><a href="https://github.com/Omenzychen/Adversarial_Content_Attack" style="color:#123693">[code]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Qing Zhao, Yan Wang, Boyang Wang, Junxiong Lin, Shaoqi Yan, Wei Song, Antonio Liotta, Jiawen Yu, Shuyong Gao, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>MSC-AD: A Multiscene Unsupervised Anomaly Detection Dataset for Small Defect Detection of Casting Surface</strong>, 
+                        IEEE Transactions on Industrial Informatics (TII), 2023, SCI Q1.  <a href="https://ieeexplore.ieee.org/abstract/document/10376373/" style="color:#123693">[pdf]</a>
+                        <br>
+                </li>
+                    <li class="lead text-justify">
+                        Yicheng Song, Shuyong Gao, Haozhe Xing, Yiting Cheng, Yan Wang, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Towards End-to-End Unsupervised Saliency Detection with Self-Supervised Top-Down Context</strong>, 
+                        ACM International Conference on Multimedia (ACMMM), 2023, CCF A.  <a href="https://dl.acm.org/doi/pdf/10.1145/3581783.3612212" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Boyang Wang, Yan Wang, Qing Zhao, Junxiong Lin, Zeng Tao, Pinxue Guo, Zhaoyu Chen, Kaixun Jiang, Shaoqi Yan, Shuyong Gao, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>A Capture to Registration Framework for Realistic Image Super-Resolution in the Industry Environment</strong>, 
+                        ACM International Conference on Multimedia (ACMMM), 2023, CCF A.  <a href="https://dl.acm.org/doi/pdf/10.1145/3581783.3611973" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Lingyi Hong, Wei Zhang, Shuyong Gao, Hong Lu, WenQiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>SimulFlow: Simultaneously Extracting Feature and Identifying Target for Unsupervised Video Object Segmentation</strong>, 
+                        ACM International Conference on Multimedia (ACMMM), 2023, CCF A.  <a href="https://dl.acm.org/doi/pdf/10.1145/3581783.3611804" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Kaixun Jiang, Lingyi Hong, Zhaoyu Chen, Pinxue Guo, Zeng Tao, Yan Wang, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Exploring the Adversarial Robustness of Video Object Segmentation via One-shot Adversarial Attacks</strong>, 
+                        ACM International Conference on Multimedia (ACMMM), 2023, CCF A.  <a href="https://dl.acm.org/doi/pdf/10.1145/3581783.3611827" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Kaixun Jiang, Zhaoyu Chen, Xinyu Zhou, Jingyu Zhang, Lingyi Hong, JiaFeng Wang, Bo Li, Yan Wang, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Towards Decision-based Sparse Attacks on Video Recognition</strong>, 
+                        ACM International Conference on Multimedia (ACMMM), 2023, CCF A.  <a href="https://dl.acm.org/doi/pdf/10.1145/3581783.3611828" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Zeng Tao, Yan Wang, Zhaoyu Chen, Boyang Wang, Shaoqi Yan, Kaixun Jiang, Shuyong Gao, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Freq-HD: An Interpretable Frequency-based High-Dynamics Affective Clip Selection Method for in-the-Wild Facial Expression Recognition in Videos</strong>, 
+                        ACM International Conference on Multimedia (ACMMM), 2023, CCF A.  <a href="https://dl.acm.org/doi/pdf/10.1145/3581783.3611972" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Qianyu Guo, Huifang Du, Xing Jia, Shuyong Gao, Yan Teng, Haofen Wang, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Plug-and-Play Feature Generation for Few-Shot Medical Image Classification</strong>, 
+                        2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2023, CCF B.  <a href="https://ieeexplore.ieee.org/abstract/document/10385845/" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Ruize Xu, Xiaowen Qiu, Boan He, Weifeng Ge, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Multi-domain Information Fusion for Key-Points Guided GAN Inversion</strong>, 
+                        Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2023, CCF C.  <a href="https://link.springer.com/chapter/10.1007/978-981-99-8552-4_12" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Zhaoyu Chen, Bo Li, Shuang Wu, Shouhong Ding, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Query-Efficient Decision-based Black-Box Patch Attack</strong>, 
+                        IEEE Transactions on Information Forensics and Security (TIFS), 2023, CCF A.  <a href="https://ieeexplore.ieee.org/abstract/document/10227335/" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Yijun Long, Zhaoyu Chen, Hong Lu, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>GSFormer: Geometric-Spatial Transformer on Point Cloud Completion</strong>, 
+                        IEEE International Conference on Multimedia and Expo (ICME), 2023, CCF B.  <a href="https://ieeexplore.ieee.org/abstract/document/10219791/" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Qianyu Guo, Gong Haotong, Xujun Wei, Yanwei Fu, Yizhou Yu, Wenqiang Zhang, Weifeng Ge
+                        <br>
+                        &emsp;&ensp;<strong>RankDNN: Learning to Rank for Few-Shot Learning</strong>, 
+                        AAAI Conference on Artificial Intelligence, 2023, CCF A.  <a href="https://ojs.aaai.org/index.php/AAAI/article/download/25150/24922" style="color:#123693">[pdf]</a><a href="https://github.com/guoqianyu-alberta/RankDNN" style="color:#123693">[code]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Zechu Zhou, Xinyu Zhou, Zhaoyu Chen, Pinxue Guo, Qian-Yu Liu, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Memory Network with Pixel-level Spatio-Temporal Learning for Visual Object Tracking</strong>, 
+                        IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2023, SCI Q1.  <a href="https://ieeexplore.ieee.org/abstract/document/10114400/" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Haozhe Xing, Yan Wang, Xujun Wei, Hao Tang, Shuyong Gao, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Go Closer To See Better: Camouflaged Object Detection via Object Area Amplification and Figure-ground Conversion</strong>, 
+                        IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2023, SCI Q1.  <a href="https://ieeexplore.ieee.org/abstract/document/10065514/" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Jinglun Li, Xinyu Zhou, Pinxue Guo, Yixuan Sun, Yiwen Huang, Weifeng Ge, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Hierarchical Visual Categories Modeling: A Joint Representation Learning and Density Estimation Framework for Out-of-Distribution Detection</strong>, 
+                        IEEE/CVF International Conference on Computer Vision (ICCV), 2023, CCF A.  <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Hierarchical_Visual_Categories_Modeling_A_Joint_Representation_Learning_and_Density_ICCV_2023_paper.pdf" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Kaixun Jiang, Zhaoyu Chen, Hao Huang, Jiafeng Wang, Dingkang Yang, Bo Li, Yan Wang, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Efficient Decision-based Black-box Patch Attacks on Video Recognition</strong>, 
+                        IEEE/CVF International Conference on Computer Vision (ICCV), 2023, CCF A.  <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_Efficient_Decision-based_Black-box_Patch_Attacks_on_Video_Recognition_ICCV_2023_paper.pdf" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Siao Liu, Zhaoyu Chen, Yang Liu, Yuzheng Wang, Dingkang Yang, Zhile Zhao, Ziqing Zhou, Xie Yi, Wei Li, Wenqiang Zhang, Zhongxue Gan
+                        <br>
+                        &emsp;&ensp;<strong>Improving Generalization in Visual Reinforcement Learning via Conflict-aware Gradient Agreement Augmentation</strong>, 
+                        IEEE/CVF International Conference on Computer Vision (ICCV), 2023, CCF A.  <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_Improving_Generalization_in_Visual_Reinforcement_Learning_via_Conflict-aware_Gradient_Agreement_ICCV_2023_paper.pdf" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Lingyi Hong, Wenchao Chen, Zhongying Liu, Wei Zhang, Pinxue Guo, Zhaoyu Chen, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>Lvos: A benchmark for long-term video object segmentation</strong>, 
+                        IEEE/CVF International Conference on Computer Vision (ICCV), 2023, CCF A.  <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Hong_LVOS_A_Benchmark_for_Long-term_Video_Object_Segmentation_ICCV_2023_paper.pdf" style="color:#123693">[pdf]</a><a href="https://lingyihongfd.github.io/lvos.github.io/" style="color:#123693">[code]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Yiting Cheng, Fangyun Wei, Jianmin Bao, Dong Chen, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>CiCo: Domain-Aware Sign Language Retrieval via Cross-Lingual Contrastive Learning</strong>, 
+                        IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023, CCF A.  <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_CiCo_Domain-Aware_Sign_Language_Retrieval_via_Cross-Lingual_Contrastive_Learning_CVPR_2023_paper.pdf" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Yixuan Sun, Dongyang Zhao, Zhangyue Yin, Yiwen Huang, Tao Gui, Wenqiang Zhang, Weifeng Ge
+                        <br>
+                        &emsp;&ensp;<strong>Correspondence Transformers With Asymmetric Feature Learning and Matching Flow Super-Resolution</strong>, 
+                        IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023, CCF A.  <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Correspondence_Transformers_With_Asymmetric_Feature_Learning_and_Matching_Flow_Super-Resolution_CVPR_2023_paper.pdf" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                    <li class="lead text-justify">
+                        Yixuan Sun, Yiwen Huang, Haijing Guo, Yuzhou Zhao, Runmin Wu, Yizhou Yu, Weifeng Ge, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>MISC210K: A Large-Scale Dataset for Multi-Instance Semantic Correspondence</strong>, 
+                        IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023, CCF A.  <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_MISC210K_A_Large-Scale_Dataset_for_Multi-Instance_Semantic_Correspondence_CVPR_2023_paper.pdf" style="color:#123693">[pdf]</a><a href="https://github.com/YXSUNMADMAX/MISC210K" style="color:#123693">[code]</a>
+                        <br>
+                    </li>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="well text-center text-lg-left margin-1">
+        <div class="container">
+            <h3 class="font-weight-bold text-lg-left">2022</h3>
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <li class="lead text-justify">
+                        Jianfeng Wang, Shuokang Huang, Huifang Du, Yu Qin, Haofen Wang, Wenqiang Zhang
+                        <br>
+                        &emsp;&ensp;<strong>MHKD-MVQA: Multimodal Hierarchical Knowledge Distillation for Medical Visual Question Answering</strong>, 
+                        IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2023, CCF B.  <a href="https://ieeexplore.ieee.org/abstract/document/9995473/" style="color:#123693">[pdf]</a>
+                        <br>
+                    </li>
+                </div>
+            </div>
+        </div>
+
+
 
 </main>
