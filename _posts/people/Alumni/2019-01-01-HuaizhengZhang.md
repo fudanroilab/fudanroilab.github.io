@@ -2,8 +2,9 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Huaizheng Zhang # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
+Employment: State Grid Corporation of China
 showtitle: 2021 Master # people_type in 201X
 title: Huaizheng Zhang # Website Title
 profileName: huaizhengzhang.jpg  # Fixed 186 * 186, image filename
