@@ -9,7 +9,7 @@ showtitle: 2018 Master
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 title: Jinshen Li  # Website Title
-Employment: Government employee
+Employment: Civil Servant
 profileName: lijinshen.jpg  # Fixed 186 * 186
 profile: lijinshenBig.jpg  # About 570 * 725
 direction : Computer Vision, Deep Learning

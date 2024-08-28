@@ -1,22 +1,23 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Tianan Shi # Write your name
+name: Shilin Yan # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type: Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
+Employment: Xiaohongshu
 showtitle: 2021 Master # people_type in 201X
-title: Tianan Shi # Website Title
-profileName: tiananshi.jpg  # Fixed 186 * 186, image filename
-profile: tiananshiBig.jpg  # About 570 * 725, image filename
-direction : Computer Vision, Deep Learning
-layout: peoplepost  #  Do not change this
+title: Shilin Yan # Website Title
+profileName: shilinyan.jpg # Fixed 186 * 186, image filename
+profile: shilinyanBig.jpg # About 570 * 725, image filename
+direction: Few-shot Learning, Video Object Segmentation
+layout: peoplepost #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: 21210240071@m.fudan.edu.cn
-google : None
-github : None
+email: slyan21@m.fudan.edu.cn
+google: None
+github: None
 linkedin: None
-# 
+#
 institution: School of Computer Science, Fudan University
 # Academy for Engineering & Technology, Fudan University
 # School of Computer Science, Fudan University
@@ -26,10 +27,4 @@ institutionShort: School of Computer Science
 # Self-introduction is described in the third person, including information such as educational experience
 ---
 
-Tianan Shi is currently a master student at SCS, Fudan University. She is supervised by Prof. Wenqiang Zhang. She obtained her B.Eng. degree from Shanghai University by 2021. Her research interests include computer vision and deep learning.
-
-
-
-
- 
-
+Shilin Yan is currently a master student at School of Computer Science and Technology, Fudan University. He is supervised by Prof. Wei Zhang. His research interests include Few-shot Learning, Video Object Segmentation and Meta-Learning.
