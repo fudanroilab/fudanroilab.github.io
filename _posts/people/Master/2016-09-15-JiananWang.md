@@ -7,8 +7,8 @@ people_type : Master Students
 showtitle: 2024 Master
 # 20XX [PhD, Master, EngD]
 title: Jianan Wang # Website Title
-profileName: jiananwang.jpg  #  Fix aspect ratio = 1:1
-profile: jiananwangBig.jpg  # About aspect ratio = 4:3
+profileName: JiananWang.jpg  #  Fix aspect ratio = 1:1
+profile: JiananWangBig.jpg  # About aspect ratio = 4:3
 direction : Computer Vision, Human Motion Generation  # research direction
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
