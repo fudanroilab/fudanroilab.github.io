@@ -7,8 +7,8 @@ people_type : Master Students
 showtitle: 2024 Master
 # 20XX [PhD, Master, EngD]
 title: Xueyao Chen # Website Title
-profileName: xueyaochen.jpg  #  Fix aspect ratio = 1:1
-profile: xueyaochenBig.jpg  # About aspect ratio = 4:3
+profileName: XueyaoChen.jpg  #  Fix aspect ratio = 1:1
+profile: XueyaoChenBig.jpg  # About aspect ratio = 4:3
 direction : Artificial Intelligence # research direction
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
