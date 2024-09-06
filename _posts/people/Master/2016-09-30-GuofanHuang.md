@@ -28,7 +28,7 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience(B/M/P), graduation career development 
 ---
 
-Guofan Huang is currently a Master student at Academy for Engineering & Technology, Fudan University. He is supervised by Prof. Wenqiang Zhang. He obtained his B.Eng. degree from Xi’an Jiaotong University by 2020. His research interests are in computer vision, and its applications.
+Guofan Huang is currently a Master student at Academy for Engineering & Technology, Fudan University. He is supervised by Prof. Wenqiang Zhang. He obtained his B.Eng. degree from Xi’an Jiaotong University by 2023. His research interests are in computer vision, and its applications.
 
 
 
