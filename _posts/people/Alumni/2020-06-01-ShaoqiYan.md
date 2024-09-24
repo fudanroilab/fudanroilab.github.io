@@ -1,21 +1,22 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Qing Zhao # Write your name
+name: Shaoqi Yan # Write your name
 type: people #  Do not change this
-people_type : EngD Students
+people_type : Alumni
+Employment: --
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
 showtitle: 2019 EngD
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
-title: Qing Zhao # Website Title
-profileName: QingZhao.jpeg  # Fixed 186 * 186
-profile: QingZhaoBig.jpeg  # About 570 * 725
-direction : Semantic Segmentation, Machine Vision
+title: Shaoqi Yan # Website Title
+profileName: yanshaoqi1.jpg  # Fixed 186 * 186
+profile: yanshaoqi2.jpeg  # About 570 * 725
+direction : Computer Vision
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: zhaoqing121@126.com
+email: sqyan19@fudan.edu.cn
 google : None
 github : None
 linkedin: None
@@ -29,4 +30,4 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience
 ---
 
-Qing Zhao is currently a Phd student in AET, Fudan. He is supervised by Prof. Wenqiang Zhang. He has obtained his Master's degree from Southeast University, Nanjing, China by 2013.
+Shaoqi Yan is currently a Phd student in AET, Fudan University, who is supervised by Prof. Wenqiang Zhang.
