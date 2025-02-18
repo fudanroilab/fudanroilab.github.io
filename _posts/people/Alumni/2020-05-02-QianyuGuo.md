@@ -2,8 +2,9 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Qianyu Guo # Write your name
 type: people #  Do not change this
-people_type : PhD Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
+Employment: Lecturer at Shanghai Jiao Tong University
 showtitle: 2020 PhD # people_type in 201X
 title: Qianyu Guo # Website Title
 profileName: QianyuGuo.jpg  # Fixed 186 * 186, image filename

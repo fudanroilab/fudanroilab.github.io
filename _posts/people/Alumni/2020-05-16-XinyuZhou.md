@@ -2,8 +2,9 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Xinyu Zhou # Write your name
 type: people #  Do not change this
-people_type : EngD Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
+Employment: Postdoctoral fellow at Nanyang Technological University
 showtitle: 2020 EngD
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
