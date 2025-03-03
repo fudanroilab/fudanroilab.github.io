@@ -3,7 +3,7 @@
 name: Shaoqi Yan # Write your name
 type: people #  Do not change this
 people_type : Alumni
-Employment: --
+Employment: Lecturer at Shanghai Institute of Technology
 # [Academy for Engineering & Technology, School of Computer Science, Organizer]
 showtitle: 2019 EngD
 # [PhD Student, Master Student, Visiting Student,
