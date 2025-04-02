@@ -103,6 +103,26 @@ color: 	Black
                                     <div class="card-arrow"></div>
                                 </a>
                                 
+                                <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [July 2024] Three papers in the laboratory were accepted by <span style="color:#FF0000;font-weight:bold;">ECCV 2024</span> (CCF B) ! 
+                                    <div class="card-arrow"></div>
+                                </a>
+                                
+                                <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [February 2024] Three papers in the laboratory were accepted by <span style="color:#FF0000;font-weight:bold;">CVPR 2024</span> (CCF A) ! 
+                                    <div class="card-arrow"></div>
+                                </a>
+                                
+                                <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [February 2024] Our paper "<b>MGR3Net: Multigranularity Region Relation Representation Network for Facial Expression Recognition in Affective Robots</b>" was accepted by <span style="color:#FF0000;font-weight:bold;">IEEE Transactions on Industrial Informatics (SCI Q1, IF=12.3)</span>! 
+                                    <div class="card-arrow"></div>
+                                </a>
+                                
+                                <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [December 2023] Two papers in the laboratory were accepted by <span style="color:#FF0000;font-weight:bold;">AAAI 2024</span> (CCF A) ! 
+                                    <div class="card-arrow"></div>
+                                </a>
+
                                 <!-- 显示更多按钮 -->
                                 <div class="text-center mt-3">
                                     <button id="show-more-news" class="btn btn-outline-primary rounded-pill px-4" onclick="toggleNewsVisibility()">Show more</button>
@@ -110,25 +130,7 @@ color: 	Black
                                 
                                 <!-- 隐藏的新闻部分 -->
                                 <div id="more-news" style="display: none;">
-                                    <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
-                                        [July 2024] Three papers in the laboratory were accepted by <span style="color:#FF0000;font-weight:bold;">ECCV 2024</span> (CCF B) ! 
-                                        <div class="card-arrow"></div>
-                                    </a>
                                     
-                                    <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
-                                        [February 2024] Three papers in the laboratory were accepted by <span style="color:#FF0000;font-weight:bold;">CVPR 2024</span> (CCF A) ! 
-                                        <div class="card-arrow"></div>
-                                    </a>
-                                    
-                                    <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
-                                        [February 2024] Our paper "<b>MGR3Net: Multigranularity Region Relation Representation Network for Facial Expression Recognition in Affective Robots</b>" was accepted by <span style="color:#FF0000;font-weight:bold;">IEEE Transactions on Industrial Informatics (SCI Q1, IF=12.3)</span>! 
-                                        <div class="card-arrow"></div>
-                                    </a>
-                                    
-                                    <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
-                                        [December 2023] Two papers in the laboratory were accepted by <span style="color:#FF0000;font-weight:bold;">AAAI 2024</span> (CCF A) ! 
-                                        <div class="card-arrow"></div>
-                                    </a>
                                     
                                     <a role="button" class="collapsed" aria-controls="accordion1Collapse1" aria-expanded="false">
                                         [November 2023] Our paper "<b>MSC-AD: A Multi-Scene Unsupervised Anomaly Detection Dataset for Small Defect Detection of Casting Surface</b>" was accepted by <span style="color:#FF0000;font-weight:bold;">IEEE Transactions on Industrial Informatics (SCI Q1, IF=12.3)</span>! 
@@ -298,6 +300,43 @@ color: 	Black
         </div>
     </section>
 
+    <!-- 数据集部分 - 美化按钮样式 -->
+    <section class="well well-sm well-inset-2">
+        <div class="container">
+            <!-- <h1 class="text-center font-weight-bold">Datasets</h1> -->
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="dataset-card">
+                        <!-- 标题置顶 -->
+                        <h3 class="dataset-title text-center mb-4">FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos</h3>
+                        
+                        <!-- 图片居中 -->
+                        <div class="text-center mb-4">
+                            <img src="images/datasets/FERV39k.png" alt="FERV39k Dataset" class="img-fluid rounded shadow dataset-image">
+                        </div>
+                        
+                        <!-- 重新布局: 联系方式在一行左对齐，两个按钮在右对齐 + 美化按钮 -->
+                        <div class="dataset-contact mt-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-7 text-left">
+                                    <strong class="mr-2">Contact for Access:</strong>
+                                    <a href="mailto:yanwang19@fudan.edu.cn">yanwang19@fudan.edu.cn</a>
+                                    <a href="mailto:wqzhang@fudan.edu.cn">wqzhang@fudan.edu.cn</a>
+                                </div>
+                                <div class="col-md-5 text-md-right">
+                                    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_FERV39k_A_Large-Scale_Multi-Scene_Dataset_for_Facial_Expression_Recognition_in_CVPR_2022_paper.pdf" target="_blank" class="btn btn-paper">Paper</a>
+                                    <a href="https://github.com/wangyanckxx/FERV39k" target="_blank" class="btn btn-github">
+                                        <i class="fa fa-github mr-1"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="well well-sm well-inset-2 text-center text-lg-left">
         <div class="container">
             <h1 class="font-weight-bold text-center">Recent Reports</h1>
@@ -455,6 +494,7 @@ color: 	Black
         </div>
     </section>
     <!--End section-->
+
 </main>
 
 <!-- 添加JavaScript控制显示/隐藏功能 -->
@@ -489,15 +529,15 @@ color: 	Black
     }
     /* 美化按钮样式 */
     #show-more-news, #show-less-news {
-        transition: all 0.3s ease;
-        margin: 0px 0;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin: 0px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
-        font-weight: bold; 
-        font-size: 16px; 
-        border-radius: 25px;
-        display: inline-block;
-        }
+    font-weight: bold; 
+    font-size: 1.1em; 
+    border-radius: 25px;
+    display: inline-block;
+    }
 
     /* 悬停效果保持不变 */
     #show-more-news:hover, #show-less-news:hover {
@@ -527,6 +567,137 @@ color: 	Black
     /* #show-more-news {
         display: inline-block;
     } */
+
+    /* 修改数据集样式 */
+    .dataset-card {
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        margin-bottom: 30px;
+        transition: all 0.3s ease;
+    }
+    
+    .dataset-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    }
+    
+    .dataset-title {
+        color: #333;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .dataset-image {
+        max-height: 400px;
+        width: auto;
+        display: inline-block;
+    }
+    
+    /* 修改数据集联系方式样式 - 将邮箱地址改为黑色 */
+    .dataset-contact a {
+        color: #333333; /* 改为黑色 */
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .dataset-contact a:hover {
+        text-decoration: underline;
+        color: #0c8bcb; /* 悬停时仍然可以变为蓝色以示交互 */
+    }
+    
+    /* 确保按钮样式不会被上面的样式覆盖 */
+    .dataset-contact a.btn {
+        color: #ffffff !important; /* 按钮文字保持为白色 */
+    }
+    
+    .dataset-contact a.btn:hover {
+        text-decoration: none; /* 按钮悬停时不显示下划线 */
+    }
+    
+    /* 调整按钮样式 */
+    .dataset-contact .btn {
+        padding: 8px 20px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    
+    .btn-outline-dark {
+        color: #343a40;
+        border-color: #343a40;
+    }
+    
+    .btn-outline-dark:hover {
+        color: #fff;
+        background-color: #343a40;
+        border-color: #343a40;
+    }
+    
+    /* 响应式调整 */
+    @media (max-width: 767.98px) {
+        .dataset-contact .col-md-5 {
+            text-align: left;
+            margin-top: 15px;
+        }
+        
+        .dataset-contact .btn {
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    /* 美化按钮样式 - 确保字体为白色 */
+    .btn-paper, .btn-github {
+        border-radius: 30px;
+        padding: 10px 22px;
+        font-weight: 600;
+        font-size: 15px;
+        transition: all 0.3s ease;
+        margin-left: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        border: none;
+        letter-spacing: 0.4px;
+        color: #ffffff !important; /* 强制设置字体颜色为白色 */
+    }
+    
+    /* Paper按钮颜色 */
+    .btn-paper {
+        background: linear-gradient(135deg, #83b6df, #74b7ee);
+    }
+    
+    .btn-paper:hover {
+        background: linear-gradient(135deg, #6ca1cd, #5aa4e4);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(51, 154, 240, 0.25);
+    }
+    
+    /* GitHub按钮颜色 */
+    .btn-github {
+        background: linear-gradient(135deg, #6c757d, #495057);
+    }
+    
+    .btn-github:hover {
+        background: linear-gradient(135deg, #5a6268, #444b52);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(108, 117, 125, 0.25);
+    }
+    
+    /* 响应式调整保持不变 */
+    @media (max-width: 767.98px) {
+        .dataset-contact .col-md-5 {
+            text-align: left;
+            margin-top: 20px;
+        }
+        
+        .btn-paper, .btn-github {
+            margin-top: 5px;
+            margin-left: 0;
+            margin-right: 10px;
+            display: inline-block;
+        }
+    }
 </style>
 
 
