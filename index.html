@@ -300,22 +300,22 @@ color: 	Black
         </div>
     </section>
 
-    <!-- 数据集部分 - 美化按钮样式 -->
     <section class="well well-sm well-inset-2">
         <div class="container">
             <h1 class="text-center font-weight-bold">Datasets</h1>
             <div class="row justify-content-center">
                 <div class="col-10">
                     <div class="dataset-card">
-                        <!-- 标题置顶 -->
-                        <h3 class="dataset-title text-center mb-4">FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos</h3>
+                        <h3 class="dataset-title text-center mb-4">
+                            <!-- <span class="dataset-venue">CVPR 2022</span> -->
+                            <span class="dataset-name">FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos <span style="color:#1E88E5; font-style:italic; font-weight:bold;">—— CVPR 2022</span></span>
+                            <!-- <span class="dataset-name">FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos [CVPR 2022]</span> -->
+                        </h3>
                         
-                        <!-- 图片居中 -->
                         <div class="text-center mb-4">
                             <img src="images/datasets/FERV39k.png" alt="FERV39k Dataset" class="img-fluid rounded shadow dataset-image">
                         </div>
                         
-                        <!-- 重新布局: 联系方式在一行左对齐，两个按钮在右对齐 + 美化按钮 -->
                         <div class="dataset-contact mt-4">
                             <div class="row align-items-center">
                                 <div class="col-md-7 text-left">
@@ -714,6 +714,33 @@ color: 	Black
             margin-left: 0;
             margin-right: 10px;
             display: inline-block;
+        }
+    }
+
+    /* CVPR 2022标识样式 */
+    .dataset-venue {
+        display: inline-block;
+        background-color: #1E88E5;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: bold;
+        padding: 3px 10px;
+        border-radius: 4px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        vertical-align: middle;
+    }
+    
+    .dataset-name {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    @media (max-width: 767px) {
+        .dataset-venue {
+            display: block;
+            margin: 0 auto 10px auto;
+            width: fit-content;
         }
     }
 </style>
