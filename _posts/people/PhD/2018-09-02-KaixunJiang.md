@@ -14,7 +14,7 @@ layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
 email: kxjiang22@m.fudan.edu.cn
-google : None
+google : https://scholar.google.com/citations?user=y47C5AQAAAAJ&hl=en&oi=ao
 github : None
 linkedin: None
 # 
