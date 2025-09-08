@@ -7,7 +7,7 @@ people_type : Master Students
 showtitle: 2023 Master
 # 20XX [PhD, Master, EngD]
 title: Chenzhi Tan # Website Title
-profileName: chenzhitan.jpg  #  Fix aspect ratio = 1:1
+profileName: ChenzhiTan.jpg  #  Fix aspect ratio = 1:1
 profile: chenzhitanBig.jpg  # About aspect ratio = 4:3
 direction : Computer Vision, Deep Learning
 layout: peoplepost  #  Do not change this
