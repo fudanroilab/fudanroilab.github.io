@@ -2,7 +2,7 @@
 name: Xuening Wu
 type: people #  Do not change this
 people_type : Alumni
-Employment: --
+Employment: Pfizer
 showtitle: 2019 EngD
 title: Xuening Wu # Website Title
 profileName: robot.jpg  # Fixed 186 * 186
