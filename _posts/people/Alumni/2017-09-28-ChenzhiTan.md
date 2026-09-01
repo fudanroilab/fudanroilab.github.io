@@ -2,7 +2,7 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Chenzhi Tan # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2023 Master
 # 20XX [PhD, Master, EngD]

@@ -1,19 +1,19 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Xuan Tong # Write your name
+name: Haoran Wang # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2023 Master
 # 20XX [PhD, Master, EngD]
-title: Xuan Tong # Website Title
-profileName: XuanTong.jpg  #  Fix aspect ratio = 1:1
-profile: XuanTongBig.jpg  # About aspect ratio = 4:3
-direction : Defect detection
+title: Haoran Wang # Website Title
+profileName: HaoranWang.jpg  #  Fix aspect ratio = 1:1
+profile: HaoranWangBig.jpg  # About aspect ratio = 4:3
+direction : Vision-Driven Affective Computing
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: xtong23@m.fudan.edu.cn
+email: hrwang23@m.fudan.edu.cn
 google : None
 github : None
 linkedin: None
@@ -28,7 +28,7 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience(B/M/P), graduation career development 
 ---
 
-Xuan Tong is currently a Master student at Academy for Engineering & Technology, Fudan University. She is supervised by Prof. Wenqiang Zhang. She obtained her B.Eng. degree from Chongqing University by 2023. Her research interests include computer vision, defect detection, and their applications.
+Haoran Wang is currently a master student at Academy for Engineering & Technology, Fudan University. He is supervised by Prof. Wenqiang Zhang. He obtained his B.Eng. degree from Shanghai University by 2023. His research interests are in vision-driven affective computing, and its applications.
 
 
 
