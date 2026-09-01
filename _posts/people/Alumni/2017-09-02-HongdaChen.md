@@ -6,6 +6,7 @@ people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2023 Master
 # 20XX [PhD, Master, EngD]
+Employment: SiOrigin
 title: Hongda Chen # Website Title
 profileName: HongdaChen.jpg  #  Fix aspect ratio = 1:1
 profile: HongdaChenBig.jpg  # About aspect ratio = 4:3

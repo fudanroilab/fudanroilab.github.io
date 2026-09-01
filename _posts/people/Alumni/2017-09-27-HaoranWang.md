@@ -6,6 +6,7 @@ people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2023 Master
 # 20XX [PhD, Master, EngD]
+Employment: Tencent
 title: Haoran Wang # Website Title
 profileName: HaoranWang.jpg  #  Fix aspect ratio = 1:1
 profile: HaoranWangBig.jpg  # About aspect ratio = 4:3

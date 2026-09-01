@@ -6,6 +6,7 @@ people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2023 Master
 # 20XX [PhD, Master, EngD]
+Employment: PhD of HKU
 title: Junxiong Lin # Website Title
 profileName: junxionglin.jpg  #  Fix aspect ratio = 1:1
 profile: junxionglinBig.jpg  # About aspect ratio = 4:3
