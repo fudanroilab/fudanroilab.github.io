@@ -1,19 +1,20 @@
 ---
 # This file must follow the rule that filename is year-month-day-name.md .
-name: Jiawen Yu # Write your name
+name: Junxiong Lin # Write your name
 type: people #  Do not change this
-people_type : Master Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2023 Master
 # 20XX [PhD, Master, EngD]
-title: Jiawen Yu # Website Title
-profileName: jiawenyu.jpg  #  Fix aspect ratio = 1:1
-profile: jiawenyuBig.jpg  # About aspect ratio = 4:3
-direction : Computer Vision, Anomaly Detection
+Employment: PhD of HKU
+title: Junxiong Lin # Website Title
+profileName: junxionglin.jpg  #  Fix aspect ratio = 1:1
+profile: junxionglinBig.jpg  # About aspect ratio = 4:3
+direction : Computer Vision
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
 homepage: None
-email: jwyu23@m.fudan.edu.cn
+email: linjx23@m.fudan.edu.cn
 google : None
 github : None
 linkedin: None
@@ -28,9 +29,4 @@ institutionShort: Academy for Engineering & Technology
 # Self-introduction is described in the third person, including information such as educational experience(B/M/P), graduation career development 
 ---
 
-Jiawen Yu is currently a Master student at Academy for Engineering & Technology, Fudan University. She is supervised by Prof. Wenqiang Zhang. She obtained her B.Eng. degree from University of Shanghai for Science and Technology by 2023. Her research interests are in computer vision, and their applications, such as anomaly detection.
-
-
-
- 
-
+Junxiong Lin is currently a master student at Academy for Engineering & Technology, Fudan University. He is supervised by Prof. Wenqiang Zhang. He obtained his B.Eng. degree from Shenzhen University. His research interests are in deep learning and computer vision.
