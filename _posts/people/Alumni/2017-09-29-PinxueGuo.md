@@ -2,9 +2,10 @@
 # This file must follow the rule that filename is year-month-day-name.md .
 name: Pinxue Guo # Write your name
 type: people #  Do not change this
-people_type : PhD Students
+people_type : Alumni
 # [PhD Students, EngD Students, Master Students, Organizer, Alumni]
 showtitle: 2021 PhD # people_type in 201X
+Employment: Shanghai Qiji Zhifeng Co., Ltd
 title: Pinxue Guo # Website Title
 profileName: pinxueguo.jpg  # Fixed 186 * 186, image filename
 profile: pinxueguoBig.jpg  # About 570 * 725, image filename
