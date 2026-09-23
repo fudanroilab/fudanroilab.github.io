@@ -7,8 +7,8 @@ people_type : Master Students
 showtitle: 2026 Master
 # 20XX [PhD, Master, EngD]
 title: Weimin Zhang # Website Title
-profileName: weiminzhang.jpg  #  Fix aspect ratio = 1:1  
-profile: weiminzhangBig.jpg  # About aspect ratio = 4:3
+profileName: Weiminzhang.jpg  #  Fix aspect ratio = 1:1  
+profile: WeiminzhangBig.jpg  # About aspect ratio = 4:3
 direction : Vision-Language-Models, Spatial Intelligence # research direction
 layout: peoplepost  #  Do not change this
 # if you have the items listed below, please write here; if not, please write None.
